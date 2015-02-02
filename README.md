@@ -1,19 +1,18 @@
-# DOC
 ##How To Get Started
----------------------------------------
+
 
 
 ASZimOrm library for iOS and Mac OS X. It's built on top of the sqlite3.0
 Choose ASZimOrm for your next project, or migrate over your existing projects—you'll be happy you did!
 
 ##Communication
----------------------------------------
+
 TODO..
 ##Requirements
----------------------------------------
+
 libsqlite3.dylib
 ##Architecture
----------------------------------------
+
 
 | 类        | 描述           | Cool  |
 | ----------------------- |:-------------:| -----:|
@@ -24,7 +23,6 @@ libsqlite3.dylib
 
 
 ##How To Get Started
----------------------------------------
 * 找到这个文件 cn.com.yitong.db ，如果你想使用，写入xml，这里是你要建立的表名和字段
 
 *  查询语句  : `NSArray *aryOfData = QUERY_SQL(@"T_CACHE_BUSI_TRANS", @"TRANS_ID", dataSource[@"TRANS_ID”]);`
